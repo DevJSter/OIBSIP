@@ -272,7 +272,6 @@ input {
   left: 0;
 }
 
-/*=============== HOME ===============*/
 .home__img {
   position: absolute;
   top: 0;
@@ -356,7 +355,6 @@ input {
   transform: var(--img-scale);
 }
 
-/*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -674,7 +672,6 @@ input {
   transition: var(--img-transition);
 }
 
-/*=============== FOOTER ===============*/
 .footer__container {
   row-gap: 5rem;
 }
@@ -740,8 +737,6 @@ input {
 .footer__terms-link:hover {
   color: var(--text-color);
 }
-
-/*========== SCROLL UP ==========*/
 .scrollup {
   position: fixed;
   right: 1rem;
@@ -754,22 +749,10 @@ input {
   transition: .4s;
 }
 
-.scrollup:hover {
-  background-color: var(--first-color-alt);
-  opacity: 1;
-}
-
-.scrollup__icon {
-  color: var(--white-color);
-  font-size: 1.2rem;
-}
-
-/* Show scroll */
 .show-scroll {
   bottom: 5rem;
 }
 
-/*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
   width: .60rem;
   background-color: var(--scroll-bar-color);
@@ -783,7 +766,7 @@ input {
   background-color: var(--text-color-light);
 }
 
-/*=============== MEDIA QUERIES ===============*/
+
 /* For small devices */
 @media screen and (max-width: 340px) {
   .place__container {
