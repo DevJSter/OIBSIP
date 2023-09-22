@@ -2,4 +2,4 @@
 ###  ResponsiveLanding Page 🌊
 
 
-![Landing-Page](/preview.png)
+![Landing-Page] (/preview.png)
